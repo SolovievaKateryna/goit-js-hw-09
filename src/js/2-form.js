@@ -29,7 +29,7 @@ function onSubmit(event) {
     const { email, message } = event.currentTarget.elements;
 
     const trimmedEmail = email.value.trim();
-    const trimmedMessage = message.value.trim();
+    /*const trimmedMessage = message.value.trim();*/
 
     if (trimmedEmail === '' || trimmedMessage === '') {
         iziToast.error({
